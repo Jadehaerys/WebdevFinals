@@ -1,7 +1,7 @@
 #navigation{
     display: flex;
     justify-content: flex-end;
-    height: 100px;
+    height: 100%;
     width: 100%;
     background-color: white;
     display: inline-block;
@@ -17,7 +17,9 @@ nav{
 }
 #main_logo{
     width: auto;
-    height: 70px;;
+    height: 90px;
+    margin-top: 40px;
+    margin-left: 60px;
 }
 nav ul li{
     list-style-type: none;
@@ -33,6 +35,7 @@ nav ul li a{
     padding: 10px;
     text-decoration: none;
     color: black;
+    font-family: Questrial,sans-serif;
 }
 #header{
     
@@ -45,7 +48,8 @@ nav ul li a{
     flex-direction: row;
     justify-content: space-between;
     padding-left: 1px;
-    align-items: center;  
+    align-items: center;
+     
 
     
 }
@@ -54,15 +58,17 @@ nav ul li a{
     justify-content: flex-end;
     align-items: center;
     
-    width: 600px;
+    width: fit-content;
 }
 #google{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    width: 25px;
-    height: 35px;
-    padding-left: 20px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 30px;
+
 
     
 }
@@ -77,12 +83,31 @@ nav ul li a{
     border-radius: 5%;
 }
 #eclassroom{
-    padding-left: 10px;
-    position: relative; top: 10px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    -webkit-text-size-adjust: 100%;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+
+    
 }
 #phone{
-    background-color: transparent;
-    color: orange;
+    display: block;
+    font-size: 20px;
+    font-family: Poppins,sans-serif;
+    font-weight: 600;
+    line-height: 100%;
+    color: #fa9426;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    
 }
 a.active,a:hover{background: #ffffff;
     color: orange;   

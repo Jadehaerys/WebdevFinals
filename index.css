@@ -42,6 +42,7 @@ nav ul li a{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    
 }
 #logo{
     display: flex;
@@ -189,4 +190,52 @@ transition: .5s;
 #section1options{
     flex
 }
+.section2_info h2 {
+    line-height: 100%;
+    color: #fbc42a;
+    font-size: 18px;
+    font-family: Poppins,sans-serif;
+    font-weight: 500;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-bottom: 26px;
+    text-align: center;
 
+}
+#spaninfo2 {
+    display: block;
+    text-transform: none;
+    letter-spacing: 0;
+    font-family: Poppins,sans-serif;
+    font-size: 50px;
+    line-height: 59px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 30px;
+    
+}
+#section2{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    background-color: rgb(83, 83, 231);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    width: 100%;
+    justify-content: center;
+    align-items: start;  
+    padding-top: 90px;
+
+}
+#section2p{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    -webkit-text-size-adjust: 100%;
+    color: white;
+}

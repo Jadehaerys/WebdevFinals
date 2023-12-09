@@ -37,6 +37,13 @@ nav ul li a{
     color: black;
     font-family: Questrial,sans-serif;
 }
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
 #header{
     
     display: flex;
@@ -187,9 +194,6 @@ transition: .5s;
     text-decoration: none;
 
 }
-#section1options{
-    flex
-}
 .section2_info h2 {
     line-height: 100%;
     color: #fbc42a;
@@ -201,6 +205,15 @@ transition: .5s;
     margin-bottom: 26px;
     text-align: center;
 
+}
+.section2_info{
+    display: flex;
+    flex-direction: column;
+    vertical-align: top;
+    align-self: center;
+    padding-top: 1%;
+    align-items: center;
+    
 }
 #spaninfo2 {
     display: block;
@@ -217,16 +230,13 @@ transition: .5s;
 }
 #section2{
     display: flex;
-    flex-direction: row;
-    align-content: center;
+    flex-direction: column;
     background-color: rgb(83, 83, 231);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 650px;
-    width: 100%;
-    justify-content: center;
-    align-items: start;  
-    padding-top: 90px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
 
 }
 #section2p{
@@ -238,4 +248,72 @@ transition: .5s;
     vertical-align: baseline;
     -webkit-text-size-adjust: 100%;
     color: white;
+}
+.section2itmsleft{
+    display: inline-block;
+    vertical-align: top;
+    width: 34%;
+    height: auto;
+    padding: 39px 100px 20px 50px;
+    background: #006feb;
+    max-width: 458px;
+    min-height: 202px;
+    color: #fff;
+    text-align: left;
+    margin: 5px;
+
+
+}
+.section2itmsleft h2 span {
+    display: block;
+    color: #fff;
+}
+.section2itmsleft h2 {
+    line-height: 29px;
+    font-family: Poppins,sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    padding-left: 63px;
+    margin-bottom: 20px;
+    color: #fbc42a;
+
+}
+.section2itmsleft p {
+    align-self: center;
+    display: block;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    -webkit-text-size-adjust: 100%;
+}
+.section2itmsleft a {
+    right: 30px;
+
+}
+
+.section2itmsleft a {
+    display: block;
+    position: inherit;
+    width: 33px;
+    height: 33px;
+    border-radius: 100%;
+    background: linear-gradient(270deg,#fa9426 3%,#fbc42a 118%);
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+    line-height: 32px;
+    bottom: 45px;
+    right: 46px;
+
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1375px;
+    margin: auto;
+    position: relative;
 }

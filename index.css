@@ -37,7 +37,7 @@ nav ul li a{
     padding: 10px;
     text-decoration: none;
     color: black;
-    font-family: Questrial,sans-serif;
+    font-family: 'Questrial',sans-serif;
 }
 
 #header{
@@ -105,7 +105,7 @@ nav ul li a{
 #phone{
     display: block;
     font-size: 20px;
-    font-family: Poppins,sans-serif;
+    font-family: 'Poppins',sans-serif;
     font-weight: 600;
     line-height: 100%;
     color: #fa9426;
@@ -142,7 +142,7 @@ transition: .5s;
 #Service{
     margin-bottom: 1%;
     line-height: 100%;
-    font-family: Poppins,sans-serif;
+    font-family: 'Poppins',sans-serif;
     font-size: 60px;
     font-weight: 700;
 }
@@ -151,7 +151,7 @@ transition: .5s;
     padding: 0;
     border: 0;
     font-size: 100%;
-    font-family: Poppins,sans-serif;
+    font-family: 'Poppins',sans-serif;
     font-weight: 400;
     line-height: 100%;
     color: #ffffff;
@@ -183,7 +183,7 @@ transition: .5s;
     text-align: center;
     vertical-align: top;
     border-radius: 60px;
-    font-family: Poppins,sans-serif;
+    font-family: 'Poppins',sans-serif;
     font-size: 20px;
     font-weight: 500;
     /* margin: 37px 12px 0; */
@@ -197,7 +197,7 @@ transition: .5s;
     line-height: 100%;
     color: #fbc42a;
     font-size: 18px;
-    font-family: Poppins,sans-serif;
+    font-family: 'Poppins',sans-serif;
     font-weight: 500;
     letter-spacing: 5px;
     text-transform: uppercase;
@@ -220,7 +220,7 @@ transition: .5s;
     display: block;
     text-transform: none;
     letter-spacing: 0;
-    font-family: Poppins,sans-serif;
+    font-family: 'Poppins',sans-serif;
     font-size: 50px;
     line-height: 59px;
     color: #fff;
@@ -294,7 +294,7 @@ transition: .5s;
 }
 .section2itmsleft h2 {
     line-height: 29px;
-    font-family: Poppins,sans-serif;
+    font-family: 'Poppins',sans-serif;
     font-size: 26px;
     font-weight: 700;
     padding-left: 63px;
@@ -386,7 +386,7 @@ p {
     color: #fff;
     text-align: center;
     border-radius: 60px;
-    font-family: Poppins,sans-serif;
+    font-family: 'Poppins',sans-serif;
     font-size: 20px;
     font-weight: 500;
 }
@@ -460,7 +460,7 @@ main .h1_title {
     line-height: 100%;
     color: #006feb;
     font-size: 18px;
-    font-family: Poppins,sans-serif;
+    font-family: 'Poppins',sans-serif;
     font-weight: 500;
     letter-spacing: 4px;
     text-transform: uppercase;
@@ -470,7 +470,7 @@ main .h1_title span {
     display: block;
     text-transform: none;
     letter-spacing: 0;
-    font-family: Poppins,sans-serif;
+    font-family: 'Poppins',sans-serif;
     font-size: 50px;
     line-height: 59px;
     color: #333;
@@ -493,7 +493,7 @@ mark {
 }
 main p {
     margin-bottom: 28px;
-    font-family: Poppins,sans-serif;
+    font-family: 'Poppins',sans-serif;
 }
 main p:last-child {
     margin-bottom: 0;
@@ -522,7 +522,7 @@ figure{
     line-height: 100%;
     color: #006feb;
     font-size: 18px;
-    font-family: Poppins,sans-serif;
+    font-family: 'Poppins',sans-serif;
     font-weight: 500;
     letter-spacing: 4px;
     text-transform: uppercase;
@@ -532,7 +532,7 @@ figure{
     display: block;
     text-transform: none;
     letter-spacing: 0;
-    font-family: Poppins,sans-serif;
+    font-family: 'Poppins',sans-serif;
     font-size: 50px;
     line-height: 59px;
     color: #333;
@@ -549,7 +549,7 @@ figure{
     text-align: center;
     vertical-align: top;
     border-radius: 60px;
-    font-family: Poppins,sans-serif;
+    font-family: 'Poppins',sans-serif;
     font-size: 20px;
     font-weight: 500;
 }
@@ -584,7 +584,7 @@ figure{
     line-height: 100%;
     font-size: 20px;
     padding-left: 68px;
-    font-family: Poppins,sans-serif;
+    font-family: 'Poppins',sans-serif;
     font-weight: 500;
     margin-bottom: 20px;
     position: relative;
@@ -610,7 +610,7 @@ figure{
     text-align: center;
     line-height: 44px;
     font-size: 23px;
-    font-family: Poppins,sans-serif;
+    font-family: 'Poppins',sans-serif;
     font-weight: 700;
     position: relative;
     z-index: 2;
@@ -634,7 +634,7 @@ figure{
     line-height: 100%;
     color: #fbc42a;
     font-size: 18px;
-    font-family: Poppins,sans-serif;
+    font-family: 'Poppins',sans-serif;
     font-weight: 500;
     letter-spacing: 4px;
     text-transform: uppercase;
@@ -644,7 +644,7 @@ figure{
     display: block;
     text-transform: none;
     letter-spacing: 0;
-    font-family: Poppins,sans-serif;
+    font-family: 'Poppins',sans-serif;
     font-size: 50px;
     line-height: 59px;
     color: #fff;
@@ -665,7 +665,7 @@ figure{
     text-align: center;
     vertical-align: top;
     border-radius: 60px;
-    font-family: Poppins,sans-serif;
+    font-family: 'Poppins',sans-serif;
     font-size: 20px;
     font-weight: 500;
 }
@@ -676,7 +676,7 @@ figure{
 }
 .btm2_boxes section h2 {
     line-height: 100%;
-    font-family: Poppins,sans-serif;
+    font-family: 'Poppins',sans-serif;
     font-size: 22px;
     font-weight: 500;
     padding-left: 69px;
@@ -694,12 +694,13 @@ figure{
     text-align: center;
     vertical-align: top;
     border-radius: 60px;
-    font-family: Poppins,sans-serif;
+    font-family: 'Poppins',sans-serif;
     font-size: 20px;
     font-weight: 500;
 }
 #bottom2 {
     background: linear-gradient(180deg,#1369c9 -20%,#0e4e96 99%);
+    padding-bottom: 5%;
 }
 .btm2_con {
     min-height: 100%;
@@ -719,7 +720,7 @@ figure{
     line-height: 100%;
     color: #fbc42a;
     font-size: 18px;
-    font-family: Poppins,sans-serif;
+    font-family: 'Poppins',sans-serif;
     font-weight: 500;
     letter-spacing: 4px;
     text-transform: uppercase;
@@ -729,7 +730,7 @@ figure{
     display: block;
     text-transform: none;
     letter-spacing: 0;
-    font-family: Poppins,sans-serif;
+    font-family: 'Poppins',sans-serif;
     font-size: 50px;
     line-height: 59px;
     color: #fff;
@@ -750,7 +751,7 @@ figure{
     text-align: center;
     vertical-align: top;
     border-radius: 60px;
-    font-family: Poppins,sans-serif;
+    font-family: 'Poppins',sans-serif;
     font-size: 20px;
     font-weight: 500;
 }
@@ -770,7 +771,7 @@ figure{
 }
 .btm2_boxes section h2 {
     line-height: 100%;
-    font-family: Poppins,sans-serif;
+    font-family: 'Poppins',sans-serif;
     font-size: 22px;
     font-weight: 500;
     padding-left: 69px;
@@ -795,7 +796,7 @@ figure{
     text-align: center;
     vertical-align: top;
     border-radius: 60px;
-    font-family: Poppins,sans-serif;
+    font-family: 'Poppins',sans-serif;
     font-size: 20px;
     font-weight: 500;
 }
@@ -806,8 +807,246 @@ figure{
     left: 0;
     right: 15px;
     text-align: center;
+    overflow: hidden;
 }
 .btm2_boxes section h2 img {
     position: absolute;
     left: 0;
+}
+#bottom3 {
+    background: #f6f6f6;
+    position: relative;
+    z-index: 4;
+}
+.btm3_con {
+    min-height: 531px;
+    padding: 5% 15% 5%;
+    
+}
+.btm3_info {
+    text-align: center;
+    max-width: 900px;
+    margin: auto;
+}
+.btm3_info h2 {
+    line-height: 100%;
+    font-size: 50px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.btm3_boxes {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 58px;
+    max-width: 100%;
+}
+.btm3_boxes section {
+    display: inline-block;
+    vertical-align: top;
+    width: 32%;
+    height: auto;
+    text-align: center;
+    position: relative;
+}
+.btm3_boxes section img {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 90%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    padding-top: 5%;
+}
+.btm3_boxes section h2 {
+    display: block;
+    margin: 3px 0 0;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #0e4f97;
+}
+footer{
+    display: block;
+}
+.footer_top {
+    background: #fff;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+.footer_top_con {
+    min-height: 0;
+    padding: 110px 0;
+}
+.contact_info_map {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin-bottom: 35px;
+}
+.contact_info h2 {
+    line-height: 100%;
+    color: #006feb;
+    font-size: 18px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 23px;
+}
+.contact_info h2 span {
+    display: block;
+    text-transform: none;
+    letter-spacing: 0;
+    font-family: 'Poppins',sans-serif;
+    font-size: 40px;
+    line-height: 53px;
+    color: #333;
+    font-weight: 700;
+}
+.contact_info p span {
+    display: block;
+}
+.contact_info ul {
+    margin: 3% 0 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+}
+.icon{
+    padding-top: 0%;
+    margin-bottom: 3%;
+    top: 10%;
+    left: 0;
+    position: absolute;
+    margin: auto;
+}
+.contact_info ul li {
+    line-height: 23px;
+    vertical-align: top;
+    white-space: pre-line;
+    position: relative;
+    padding-left: 52px;
+}
+.contact_info ul li small {
+    margin: 0 3px;
+}
+.contact_info ul li a {
+    color: inherit;
+}
+.contact_info ul li address {
+    display: inline-block;
+}
+.map {
+    overflow: hidden;
+    width: 62%;
+    max-width: 840px;
+    background: #ccc;
+    height: 289.6px;
+}
+.map iframe {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+}
+.license_info {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 35px;
+}
+.comp {
+    color: #0e4e96;
+    font-weight: 700;
+}
+.license_info ul li span {
+    margin: 0 3px;
+}
+.comp_logos {
+    display: inline-flex;
+    vertical-align: top;
+}
+.comp_logos figure {
+    margin-right: 22px;
+}
+.footer_btm {
+    background: linear-gradient(90deg,#1369c9 -6%,#0e4e96 109%);
+}
+.footer_btm_con {
+    min-height: 86px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_nav {
+    padding-top: 7px;
+}
+.footer_nav ul li {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+.footer_nav ul li a:active, .footer_nav ul li a:hover, .footer_nav ul li.current_page_item a {
+    text-decoration: underline;
+}
+.footer_nav ul li a {
+    display: block;
+    padding: 0 29px;
+    color: #fff;
+    font-family: Poppins,sans-serif;
+    text-transform: uppercase;
+}
+.visitor_counter {
+    display: block;
+    width: 259px;
+    height: 47px;
+    line-height: 47px;
+    background: linear-gradient(270deg,#fa9426 3%,#fbc42a 118%);
+    color: #fff;
+    text-align: center;
+    vertical-align: top;
+    border-radius: 60px;
+    font-family: Poppins,sans-serif;
+    font-weight: 500;
+}
+.logo_copyright {
+    position: relative;
+    padding-right: 11%;
+    right: 0;
+    top: -198px;
+    width: 433px;
+}
+.social_media ul {
+    display: flex;
+    margin-bottom: 20px;
+}
+.social_media ul li {
+    display: block;
+    vertical-align: top;
+    margin: 0;
+}
+.social_media ul li a {
+    display: block;
+}
+.footer_logo {
+    font-size: 25px;
+    font-family: Poppins,sans-serif;
+    font-weight: 700;
+}
+.footer_logo h2 {
+    color: #333;
+}
+.copyright {
+    margin: 6px auto 0;
+}
+.footer_comp {
+    display: inline-block;
+    margin: 0 0 0 10px;
+    position: relative;
+}
+.copyright a {
+    color: inherit;
 }

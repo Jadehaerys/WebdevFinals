@@ -983,6 +983,7 @@ footer{
 }
 .footer_nav {
     padding-top: 7px;
+    padding-left: 10%;
 }
 .footer_nav ul li {
     display: inline-block;
@@ -1027,6 +1028,7 @@ footer{
     display: block;
     vertical-align: top;
     margin: 0;
+    position: relative;
 }
 .social_media ul li a {
     display: block;
@@ -1042,6 +1044,7 @@ footer{
 .copyright {
     margin: 6px auto 0;
 }
+
 .footer_comp {
     display: inline-block;
     margin: 0 0 0 10px;

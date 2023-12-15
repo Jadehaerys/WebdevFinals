@@ -675,6 +675,7 @@ figure{
     min-height: 273px;
     background: #006feb;
     padding: 43px 50px 20px 58px;
+    width: fit-content;
 }
 .btm2_boxes section h2 {
     line-height: 100%;
@@ -702,6 +703,7 @@ figure{
 #bottom2 {
     background: linear-gradient(180deg,#1369c9 -20%,#0e4e96 99%);
     padding-bottom: 5%;
+    overflow: hidden;
 }
 .btm2_con {
     min-height: 100%;

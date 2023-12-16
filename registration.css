@@ -1,0 +1,49 @@
+#res-nav{
+    display: flex;
+    margin-left: 300px;
+    width: 1190px;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+    margin-bottom: 0px;
+}
+header{
+    border: 0px;
+    border-bottom: 5px;
+    border-style: solid;
+    border-color: rgb(3, 78, 167);
+}
+#res-nav{
+    margin-top: 0px;
+    padding: 0px;
+}
+#circ_logo{
+    height: 140px;
+    width: 140px;
+}
+#txt-logo h4{
+    text-align: center;
+    margin-top: 0px;
+    padding: 0px;
+}
+#res-background {
+    background-color: rgb(239, 228, 176);
+    height: 100vh;
+}
+
+#boxx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#inner-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 400px; 
+    border-radius: 10px;
+}

@@ -135,7 +135,7 @@ transition: .5s;
     display: flex;
     flex-direction: column;
     align-content: center;
-    background-image: url("SECTION1.jpg");
+    background-image: url("1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 650px;
@@ -483,10 +483,12 @@ main .h1_title span {
 }
 main .h1_title .comp {
     color: #333;
+    background: none;
 }
-mark {
+.number {
+    background: none;
     background-color: transparent;
-    color: inherit;
+    color: #333;
 }
 .h1_hdng {
     font-size: 22px;
@@ -842,6 +844,7 @@ figure{
     flex-wrap: wrap;
     margin-top: 58px;
     max-width: 100%;
+    margin-right: 25%;
 }
 .btm3_boxes section {
     display: inline-block;
@@ -961,6 +964,7 @@ footer{
 .comp {
     color: #0e4e96;
     font-weight: 700;
+    background: none;
 }
 .license_info ul li span {
     margin: 0 3px;
@@ -1017,12 +1021,12 @@ footer{
     position: relative;
     padding-right: 11%;
     right: 0;
-    top: -198px;
+    top: -250px;
     width: 433px;
 }
 .social_media ul {
     display: flex;
-    margin-bottom: 20px;
+    position:relative; left:-100%;
 }
 .social_media ul li {
     display: block;
@@ -1036,6 +1040,7 @@ footer{
     font-size: 25px;
     font-family: Poppins,sans-serif;
     font-weight: 700;
+    position: t;
 }
 .footer_logo h2 {
     color: #333;
@@ -1078,14 +1083,17 @@ footer{
 .btm3_boxes section {
     display: block;
     width: 100%;
-    margin: 20px 0 0;
+    margin-left: 40%;
+
 }
 .footer_top {
-    height: auto;
-    padding: 40px 25px;
+    background: #fff;
 }
 .wrapper {
-    max-width: 100%;
+    width: 100%;
+    max-width: 1375px;
+    margin: 0 auto;
+    position: relative;
 }
 .footer_top_con {
     min-height: 0;
@@ -1127,9 +1135,13 @@ footer{
     height: auto;
     padding: 40px 25px;
 }
+body{
+    margin: auto;
+}
 .footer_btm_con {
     min-height: 0;
     padding: 0;
+
     display: block;
 }
 .footer_nav {
@@ -1227,6 +1239,9 @@ footer {
     padding: 40px 25px;
     margin: 0;
     min-height: 0;
+}
+body{
+    margin: auto;
 }
 #bottom1 {
     padding: 40px 25px;

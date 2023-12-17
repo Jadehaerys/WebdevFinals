@@ -257,7 +257,10 @@ text-decoration: none;
    padding: 0;
 
 }
-
+.Care-message{
+    width: fit-content;
+    margin-right: 10%;
+}
 
 .Care-message h1 {
     color: rgb(212, 155, 8);
@@ -265,7 +268,7 @@ text-decoration: none;
    font-family:Brush Script MT ;
    font-size: 70px;
     margin-bottom: 20px;
-   margin-left: 10px;
+   margin-left: 1px;
    text-shadow: 2px ;
 
 

@@ -144,7 +144,7 @@ a:hover {
     margin-top: 10px;
     line-height: 100%;
     font-family: Poppins, sans-serif;
-    font-size: 50px;
+    font-size: 3vw;
     font-weight: 300;
 
 }
@@ -153,11 +153,16 @@ a:hover {
     margin-top: 0px;
     font-family: Poppins, sans-serif;
     font-weight: 200;
+    font-size: 1vw;
     padding-bottom: 20px;
 }
 
-#mini a {
+#mini a,#mini {
     text-decoration: none;
+    font-size: 1.5vw;
+}
+#number{
+    font-size: 1vw; 
 }
 
 #margin {
@@ -175,6 +180,7 @@ a:hover {
     font-family: Poppins, sans-serif;  
     max-width: 100%;
     flex-wrap: wrap ;
+    font-size: 1.5vw;
 }
 #det-logo{
     height: auto;
@@ -190,6 +196,7 @@ a:hover {
     justify-content: center;
     align-content: center;
     text-align: center;
+    flex-direction: row;
     background-color: rgb(14, 78, 150);
     padding: 100px;
     font-size: 20px;
@@ -226,8 +233,12 @@ a:hover {
 }
 
 #profile {
-    height: 150px;
-    padding-top: 32px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 15vw;
+    width: 15vw;
+    padding: 2vw;
 }
 
 .detaildiv {
@@ -237,14 +248,16 @@ a:hover {
 }
 
 .copybttn {
-    height: 20px;
-    margin-left: 10px;
+    height: 2vw;
+    width: 2vw;
+    margin-left: 1.2vw;
 
 }
 
 .clipboard {
-    width: 12px;
-    height: 12px;
+    width: 1.5vw;
+    height: 1.5vw;
+    margin-left: -.5vw;
 }
 
 #dis.img {
@@ -252,4 +265,4 @@ a:hover {
     width: 10px;
 }
 
-@media screen and (max-width: 800px) {}
+@media screen and (max-width: 768px) {}

@@ -16,7 +16,7 @@
     width: 80%;
     background-color: white;
     flex-wrap: wrap;
-    margin-left: 30%;
+    margin-left: 26%;
     font-size: 1.2vw;
 
 }
@@ -42,7 +42,7 @@ nav {
 nav ul li {
     list-style-type: none;
     display: inline-block;
-    padding: 3px;
+    padding: 0.117vw;
     text-decoration: none;
     color: black;
     font-weight: bold;
@@ -51,7 +51,7 @@ nav ul li {
 nav ul li a {
     list-style-type: none;
     display: inline-block;
-    padding: 10px;
+    padding: 0.391vw;
     text-decoration: none;
     color: black;
     font-family: 'Questrial', sans-serif;
@@ -272,19 +272,609 @@ a:hover {
     height: 10px;
     width: 10px;
 }
-
-@media screen and (max-width: 768px) {
-    #contact {
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        margin-bottom: 0px;
-
-    }
+@media only screen and (max-width: 2560px) {
     #main_logo{
         width: auto;
-        height: 50px;
+        height: 120px;
         margin-top: 40px;
         margin-left: 60px;
+    }
+    #navigation {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+        height: 100%;
+        width: 80%;
+        margin-top: 20px;
+        background-color: white;
+        flex-wrap: wrap;
+        font-size: 20px;
+    
+    }
+    nav ul li {
+        list-style-type: none;
+        display: inline-block;
+        padding: 2.995px;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+    
+    nav ul li a {
+        list-style-type: none;
+        display: inline-block;
+        padding: 10.01px;
+        text-decoration: none;
+        color: black;
+        font-family: 'Questrial', sans-serif;
+    }
+    #bgimage {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        height: auto;
+        width: 1600px;
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+        color: #ffffff;
+        font-weight: bold;
+        background-color: rgb(14, 78, 150);
+        flex-wrap: wrap;
+        max-width: 100%;
+    }
+    #Service {
+        font-size: 76.8px;
+        margin-bottom: 12.8px;
+        margin-top: 25.6px;
+        line-height: 100%;
+        font-family: Poppins, sans-serif;
+        font-weight: 300;
+    
+    }
+    #Paragraph {
+        font-size: 25.6px;
+        margin-top: 0vw;
+        font-family: Poppins, sans-serif;
+        font-weight: 200;
+        padding-bottom: 25.6px;
+    }
+    #mini a,#mini {
+        text-decoration: none;
+        font-size: 35.4px;
+    }
+    #number p{
+        font-size: 24.72px; 
+    }
+    #divider h1 {
+        background-color: rgb(14, 78, 150);
+        padding: 12.8px;
+        width: 99.2%;
+    }
+    #det-logo{
+        height: auto;
+        max-width: 940px;
+    }
+    #details {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        font-family: Poppins, sans-serif;  
+        max-width: 100%;
+        flex-wrap: wrap ;
+        font-size: 38.4px;
+    }
+}
+@media only screen and (max-width: 1440px) {
+    #main_logo{
+        width: auto;
+        height: 67.507px;
+        margin-top: 22.507px;
+        margin-left: 33.754px;
+    }
+    #navigation {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+        height: 100%;
+        width: 80%;
+        margin-top: 20px;
+        background-color: white;
+        flex-wrap: wrap;
+        margin-left: 30%;
+        font-size: 17.28px;
+    
+    }
+    nav ul li {
+        list-style-type: none;
+        display: inline-block;
+        padding: 1.685px;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+    
+    nav ul li a {
+        list-style-type: none;
+        display: inline-block;
+        padding: 5.63px;
+        text-decoration: none;
+        color: black;
+        font-family: 'Questrial', sans-serif;
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+        color: #ffffff;
+        font-weight: bold;
+        background-color: rgb(14, 78, 150);
+        flex-wrap: wrap;
+        max-width: 100%;
+    }
+    #Service {
+        font-size: 43.2px;
+        margin-bottom: 72px;
+        margin-top: 14.4px;
+        line-height: 100%;
+        font-family: Poppins, sans-serif;
+        font-weight: 300;
+    
+    }
+    #Paragraph {
+        font-size: 14.4px;
+        margin-top: 0vw;
+        font-family: Poppins, sans-serif;
+        font-weight: 200;
+        padding-bottom: 14.4px;
+    }
+    #mini a,#mini {
+        text-decoration: none;
+        font-size: 21.6px;
+    }
+    #number p{
+        font-size: 17.28px; 
+    }
+    #divider h1 {
+        background-color: rgb(14, 78, 150);
+        padding: 7.2px;
+        width: 99.2%;
+    }
+    #det-logo{
+        height: auto;
+        max-width: 720px;
+    }
+    #details {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        font-family: Poppins, sans-serif;  
+        max-width: 100%;
+        flex-wrap: wrap ;
+        font-size: 21.6px;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    #main_logo{
+        width: auto;
+        height: 48.005px;
+        margin-top: 16.005px;
+        margin-left: 24.003px;
+    }
+    #navigation {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+        height: 100%;
+        width: 80%;
+        margin-top: 20px;
+        background-color: white;
+        flex-wrap: wrap;
+        margin-left: 35%;
+        font-size: 12.288px;
+    
+    }
+    nav ul li {
+        list-style-type: none;
+        display: inline-block;
+        padding: 1.198px;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+    
+    nav ul li a {
+        list-style-type: none;
+        display: inline-block;
+        padding: 4.004px;
+        text-decoration: none;
+        color: black;
+        font-family: 'Questrial', sans-serif;
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+        color: #ffffff;
+        font-weight: bold;
+        background-color: rgb(14, 78, 150);
+        flex-wrap: wrap;
+        max-width: 100%;
+    }
+    #Service {
+        font-size: 30.72px;
+        margin-bottom: 5.12px;
+        margin-top: 10.24px;
+        line-height: 100%;
+        font-family: Poppins, sans-serif;
+        font-weight: 300;
+    
+    }
+    #Paragraph {
+        font-size: 10.24px;
+        margin-top: 0vw;
+        font-family: Poppins, sans-serif;
+        font-weight: 200;
+        padding-bottom: 10.24px;
+    }
+    #mini a,#mini {
+        text-decoration: none;
+        font-size: 15.36px;
+    }
+    #number p{
+        font-size: 12.288px; 
+    }
+    #divider h1 {
+        background-color: rgb(14, 78, 150);
+        padding: 5.12px;
+        width: 99.2%;
+    }
+    #det-logo{
+        height: auto;
+        max-width: 512px;
+    }
+    #details {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        font-family: Poppins, sans-serif;  
+        max-width: 100%;
+        flex-wrap: wrap ;
+        font-size: 15.36px;
+    }
+    .copybttn {
+        height: 20.48px;
+        width: 20.48px;
+    
+    }
+    
+    .clipboard {
+        height: 10.24px;
+        width: 10.24px;
+        margin-left: -3px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #main_logo{
+        width: auto;
+        height: 36.004px;
+        margin-top: 12.004px;
+        margin-left: 18.002px;
+    }
+    #navigation {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+        height: 100%;
+        width: 80%;
+        margin-top: 20px;
+        background-color: white;
+        flex-wrap: wrap;
+        margin-left: 40%;
+        font-size: 9.216px;
+    
+    }
+    nav ul li {
+        list-style-type: none;
+        display: inline-block;
+        padding: 0.899px;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+    
+    nav ul li a {
+        list-style-type: none;
+        display: inline-block;
+        padding: 3.003px;
+        text-decoration: none;
+        color: black;
+        font-family: 'Questrial', sans-serif;
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+        color: #ffffff;
+        font-weight: bold;
+        background-color: rgb(14, 78, 150);
+        flex-wrap: wrap;
+        max-width: 100%;
+    }
+    #Service {
+        font-size: 23.04px;
+        margin-bottom: 3.84px;
+        margin-top: 7.68px;
+        line-height: 100%;
+        font-family: Poppins, sans-serif;
+        font-weight: 300;
+    
+    }
+    #Paragraph {
+        font-size: 7.68px;
+        margin-top: 0vw;
+        font-family: Poppins, sans-serif;
+        font-weight: 200;
+        padding-bottom: 7.68px;
+    }
+    #mini a,#mini {
+        text-decoration: none;
+        font-size: 11.52px;
+    }
+    #number p{
+        font-size: 9.216px; 
+    }
+    #divider h1 {
+        background-color: rgb(14, 78, 150);
+        padding: 3.84px;
+        width: 99.2%;
+    }
+    #det-logo{
+        height: auto;
+        max-width: 384px;
+    }
+    #details {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        font-family: Poppins, sans-serif;  
+        max-width: 100%;
+        flex-wrap: wrap ;
+        font-size: 11.52px;
+    }
+    .copybttn {
+        height: 15.36px;
+        width: 15.36px;
+    
+    }
+    
+    .clipboard {
+        height: 7.68px;
+        width: 7.68px;
+        margin-bottom: 4px;
+        margin-left: -4px;
+    }
+}
+@media only screen and (max-width: 425px) {
+    #main_logo{
+        width: auto;
+        height: 19.924px;
+        margin-top: 6.643px;
+        margin-left: 9.962px;
+    }
+    #navigation {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+        height: 100%;
+        width: 80%;
+        margin-top: 20px;
+        background-color: white;
+        flex-wrap: wrap;
+        margin-left: 35%;
+        font-size: 5.1px;
+    
+    }
+    nav ul li {
+        list-style-type: none;
+        display: inline-block;
+        padding: 0.497px;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+    
+    nav ul li a {
+        list-style-type: none;
+        display: inline-block;
+        padding: 1.662px;
+        text-decoration: none;
+        color: black;
+        font-family: 'Questrial', sans-serif;
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+        color: #ffffff;
+        font-weight: bold;
+        background-color: rgb(14, 78, 150);
+        flex-wrap: wrap;
+        max-width: 100%;
+    }
+    #Service {
+        font-size: 12.75px;
+        margin-bottom: 2.125px;
+        margin-top: 4.25px;
+        line-height: 100%;
+        font-family: Poppins, sans-serif;
+        font-weight: 300;
+    
+    }
+    #Paragraph {
+        font-size: 4.25px;
+        margin-top: 0vw;
+        font-family: Poppins, sans-serif;
+        font-weight: 200;
+        padding-bottom: 4.25px;
+    }
+    #mini a,#mini {
+        text-decoration: none;
+        font-size: 6.375px;
+    }
+    #number p{
+        font-size: 5.1px; 
+    }
+    #divider h1 {
+        background-color: rgb(14, 78, 150);
+        padding: 2.125px;
+        width: 99.2%;
+    }
+    #det-logo{
+        height: auto;
+        max-width: 212.5px;
+    }
+    #details {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        font-family: Poppins, sans-serif;  
+        max-width: 100%;
+        flex-wrap: wrap ;
+        font-size: 6.375px;
+    }
+    .copybttn {
+        height: 8.5px;
+        width: 8.5px;
+    }
+    
+    .clipboard {
+        height: 4.25px;
+        width: 4.25px;
+        margin-bottom: 10px;
+        margin-left: -2px;
+        margin-top: -1px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    #main_logo{
+        width: auto;
+        height: 17.58px;
+        margin-top: 5.861px;
+        margin-left: 8.79px;
+    }
+    #navigation {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+        height: 100%;
+        width: 80%;
+        margin-top: 20px;
+        background-color: white;
+        flex-wrap: wrap;
+        margin-left: 35%;
+        font-size: 4.5px;
+    
+    }
+    nav ul li {
+        list-style-type: none;
+        display: inline-block;
+        padding: 0.439px;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+    
+    nav ul li a {
+        list-style-type: none;
+        display: inline-block;
+        padding: 1.466px;
+        text-decoration: none;
+        color: black;
+        font-family: 'Questrial', sans-serif;
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+        color: #ffffff;
+        font-weight: bold;
+        background-color: rgb(14, 78, 150);
+        flex-wrap: wrap;
+        max-width: 100%;
+    }
+    #Service {
+        font-size: 11.25px;
+        margin-bottom: 1.875px;
+        margin-top: 3.75px;
+        line-height: 100%;
+        font-family: Poppins, sans-serif;
+        font-weight: 300;
+    
+    }
+    #Paragraph {
+        font-size: 3.75px;
+        margin-top: 0vw;
+        font-family: Poppins, sans-serif;
+        font-weight: 200;
+        padding-bottom: 3.75px;
+    }
+    #mini a,#mini {
+        text-decoration: none;
+        font-size: 5.625px;
+    }
+    #number p{
+        font-size: 4.5px; 
+    }
+    #divider h1 {
+        background-color: rgb(14, 78, 150);
+        padding: 1.875px;
+        width: 99.2%;
+    }
+    #det-logo{
+        height: auto;
+        max-width: 187.5px;
+    }
+    #details {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        font-family: Poppins, sans-serif;  
+        max-width: 100%;
+        flex-wrap: wrap ;
+        font-size: 5.625px;
+    }
+    .copybttn {
+        height: 7.5px;
+        width: 7.5px;
+    }
+    
+    .clipboard {
+        height: 3.75px;
+        width: 3.75px;
+        margin-top: -5px;
+        margin-bottom: 9.5px;
     }
 }

@@ -11,11 +11,13 @@
 #navigation {
     display: flex;
     justify-content: flex-end;
+    flex-direction: column;
     height: 100%;
     width: 80%;
     background-color: white;
     flex-wrap: wrap;
     margin-left: 30%;
+    font-size: 1.2vw;
 
 }
 
@@ -30,7 +32,7 @@ nav {
 
 }
 
-#main_logo {
+#main_logo{
     width: auto;
     height: 90px;
     margin-top: 40px;
@@ -74,8 +76,10 @@ nav ul li a {
 
 #div-logo {
     display: flex;
+    align-content: center;
     justify-content: center;
     padding-bottom: 15px;
+    flex: wrap;
 }
 
 #contact {
@@ -83,41 +87,53 @@ nav ul li a {
     justify-content: flex-end;
     align-items: center;
     margin-bottom: 0px;
-    margin-top: 0px;
-    width: 600px;
 }
-
+#contact option{
+    font-size: 1vw;
+}
 #google {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    width: 25px;
-    height: 35px;
+    width: 1.302vw;
+    height: 1.823vw;
     padding-left: 20px;
 
 
 }
 
-#search {
+#search{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    height: 30px;
-    width: 150px;
-    position: relative;
+    height: 1.563vw;
+    width: 9vw;
+    position: relative; 
     border: 2px solid;
     border-radius: 5%;
+    font-size: 1vw;
+}
+#search option{
+    font-size: 1vw;
 }
 
 #eclassroom {
-    padding-left: 10px;
+    height: 8vw;
+    padding-left: 1vw;
     position: relative;
-    top: 10px;
+    top: 1vw;
 }
-
-#phone {
-    background-color: transparent;
-    color: orange;
+#phone{
+    display: block;
+    font-size: 1.3vw;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+    line-height: 100%;
+    color: #fa9426;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    
 }
 
 a.active,
@@ -140,24 +156,29 @@ a:hover {
 }
 
 #Service {
-    margin-bottom: 7px;
-    margin-top: 10px;
+    font-size: 3vw;
+    margin-bottom: .5vw;
+    margin-top: 1vw;
     line-height: 100%;
     font-family: Poppins, sans-serif;
-    font-size: 50px;
     font-weight: 300;
 
 }
 
 #Paragraph {
-    margin-top: 0px;
+    font-size: 1vw;
+    margin-top: 0vw;
     font-family: Poppins, sans-serif;
     font-weight: 200;
-    padding-bottom: 20px;
+    padding-bottom: 1vw;
 }
 
-#mini a {
+#mini a,#mini {
     text-decoration: none;
+    font-size: 1.5vw;
+}
+#number p{
+    font-size: 1.2vw; 
 }
 
 #margin {
@@ -175,14 +196,11 @@ a:hover {
     font-family: Poppins, sans-serif;  
     max-width: 100%;
     flex-wrap: wrap ;
+    font-size: 1.5vw;
 }
 #det-logo{
     height: auto;
-    max-width: 100%;
-}
-
-#redirect #number {
-    font-size: 15px;
+    max-width: 50vw;
 }
 
 #information {
@@ -190,20 +208,21 @@ a:hover {
     justify-content: center;
     align-content: center;
     text-align: center;
+    flex-direction: row;
     background-color: rgb(14, 78, 150);
-    padding: 100px;
+    padding: 5vw;
     font-size: 20px;
     max-width: 100%;
 }
 
 #information #profile,
 #information #details {
-    margin: 10px;
+    margin: 1vw;
 }
 
-#title h1 {
+#divider h1 {
     background-color: rgb(14, 78, 150);
-    padding: 5px;
+    padding: .5vw;
     width: 99.2%;
 }
 
@@ -219,15 +238,16 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    margin-left: -8px;
-    margin-right: -10px;
-    font-size: 20px;
     width: 84%;
 }
 
 #profile {
-    height: 150px;
-    padding-top: 32px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 15vw;
+    width: 15vw;
+    padding: 2vw;
 }
 
 .detaildiv {
@@ -237,14 +257,15 @@ a:hover {
 }
 
 .copybttn {
-    height: 20px;
-    margin-left: 10px;
+    height: 2vw;
+    width: 2vw;
+    margin-left: 1.2vw;
 
 }
 
 .clipboard {
-    width: 12px;
-    height: 12px;
+    height: 1vw;
+    width: 1vw;
 }
 
 #dis.img {
@@ -252,4 +273,18 @@ a:hover {
     width: 10px;
 }
 
-@media screen and (max-width: 800px) {}
+@media screen and (max-width: 768px) {
+    #contact {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-bottom: 0px;
+
+    }
+    #main_logo{
+        width: auto;
+        height: 50px;
+        margin-top: 40px;
+        margin-left: 60px;
+    }
+}

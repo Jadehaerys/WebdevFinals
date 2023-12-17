@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(SECTION1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+}
+
+#main_logo {
+    width: auto;
+    height: 70px;
+    position: relative;
+    width: 100%;
+    margin-right: 1000px;
+    margin-bottom: 550px;
+    padding: 0;
+}
+
+#logo {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    padding: 0px;
+}
+
+#main {
+    width: auto;
+    height: 100px;
+    padding: 10px;
+    margin-left: 1200px;
+    margin-bottom: 540px;
+}
+
+.wrapper {
+    object-position: center;
+    width:500px;
+    height:600px;
+   background: white;
+    opacity: 0.9;
+    color: skyblue;
+    border-radius: 10px;
+    padding: 40px;
+    position: relative; /* Set position to relative */
+    margin-bottom: 50px;
+    margin-top: 60px;
+    max-height: 400px; /* Adjust the max-height to your desired value */
+    overflow-y: auto; /* Enable vertical scrolling */
+    scrollbar-width: thin; /* Add a thin scrollbar */
+    scrollbar-color: transparent transparent; /* Set scrollbar color to transparent */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+.wrapper .button:hover {
+    background-color: goldenrod; /* Change the button color on hover */
+    color: white; /* Change the text color on hover */
+}
+.wrapper::-webkit-scrollbar {
+    width: 5px; 
+}
+
+.wrapper::-webkit-scrollbar-thumb {
+    background-color: transparent; 
+}
+.wrapper h1:hover{background: #ffffff;
+    color: orange;   
+transition: .5s; 
+    
+    color: aqua;
+    font-size: 36px;
+    text-align: center;
+    color: goldenrod;
+    margin-bottom: 20px;
+    z-index: 2;
+   
+    background: transparent;
+    overflow: hidden;
+
+}
+
+.wrapper .input-box {
+    position: relative;
+    width: 400px;
+    margin: 15px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid goldenrod;
+    border-radius: 10px;
+    font-size: 16px;
+    color: skyblue;
+    padding: 0 20px;
+}
+
+.input-box input::placeholder {
+    color: skyblue;
+}
+
+.input-box i,
+.input-box .eye-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: skyblue;
+    right: 20px;
+    user-select: none;
+}
+.input-box input::-webkit-inner-spin-button,
+.input-box input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.wrapper .Forgot {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+
+.Forgot label input {
+    accent-color: skyblue;
+    margin-right: 3px;
+    padding-top: 20px;
+}
+
+.Forgot a {
+    
+    color: skyblue;
+    text-decoration: none;
+}
+
+.Forgot a:hover {
+    text-decoration: underline;
+    color: goldenrod;
+}
+
+.A{
+    text-decoration: none;
+    color:skyblue;
+}
+
+
+
+.wrapper .button {
+    width: 100%;
+    height: 45px;
+    background: skyblue;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.wrapper .link {
+    font-size: 14.5px;
+    text-align: center;
+    margin-top: 20px;
+    color: skyblue; 
+    
+}
+.link a:hover {
+    color: goldenrod; 
+}
+.link p a {
+    color: skyblue;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.link p a:hover {
+    text-decoration: underline;
+}
+
+#Comment {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    -webkit-text-size-adjust: 100%;
+    width: 500px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    z-index: 10;
+}
+
+#Comment-Two {
+    background: white;
+    position: relative;
+    top: 50px;
+    height: 100px;
+    padding: 10px;
+    padding-right: 500px;
+    text-decoration: none;
+    color: black;
+    white-space: nowrap;
+}
+
+.Button,
+.Button-One,
+.Button-Two,
+.Button-Three {
+    position: absolute;
+    bottom: -80px;
+    right: 380px;
+    z-index: 10;
+    font-size: 50px;
+    padding: 0;
+}
+
+.Button-One {
+    right: 280px;
+}
+
+.Button-Two {
+    right: 180px;
+}
+
+.Button-Three {
+    right: 80px;
+}
+
